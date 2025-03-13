@@ -19,7 +19,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=3#parse
 #EXTINF:-1 ,Известия ТВ
 http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 
-#EXTINF:-1 tvg-id="kino1int-tviksel" tvg-shift="+1" ,Кино 1 Int
+#EXTINF:-1 tvg-id="kino1int-tviksel" tvg-shift="0" ,Кино 1 Int
 http://kino-1.catcast.tv/content/38617/index.m3u8
 
 #EXTINF:-1 tvg-id="ort-planeta-orenburg" ,ОРТ (Оренбург)
@@ -29,25 +29,28 @@ https://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8?version=3#parser
 
-#EXTINF:-1 ,РЕН ТВ 
+#EXTINF:-1 ,Звезда (+2)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8?version=3#parser
+http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8?version=2
 #EXTINF:-1 ,РЕН ТВ (+2)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_2/variant.m3u8?version=2
 
-#EXTINF:-1 ,НТВ 
+#EXTINF:-1 ,СТС (+2)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8?version=3#parser
+http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8?version=2
 #EXTINF:-1 ,НТВ (+2)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8?version=2
-
-#EXTINF:-1 ,Красная линия
-https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
+#EXTINF:-1 ,ТНТ (+2)
+#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
+http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8?version=2
 
 #EXTINF:-1 ,Еда Премиум
 https://cdntv.online/hls/67md8b2uek/518.m3u8
+
+#EXTINF:-1 ,Красная линия
+https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 ,1FILMAX
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Sa
@@ -60,9 +63,12 @@ https://hls.goodgame.ru/hls/204717.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 https://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_TEOTV/variant.m3u8?WithCaption
 
-#EXTINF:-1 ,Россия 1 (+4)
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8?version=2
+#EXTINF:-1 ,Твоё ТВ HD
+http://tvoetv.space:8080/tvoetv/index.m3u8
+#EXTINF:-1 ,Cinema
+http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
+#EXTINF:-1 ,Кинохит
+http://stream02.vnet.am/Kinokhit/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 ,Карусель 
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
@@ -75,36 +81,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8?version=3#parser
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8?version=3#parser
 
-#EXTINF:-1 ,Звезда
-http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
-#EXTINF:-1 ,Звезда (+2)
+#EXTINF:-1 ,Россия 1 (+4)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8?version=2
-
-#EXTINF:-1 ,ТНТ 
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8?version=3#parser
-#EXTINF:-1 ,ТНТ (+2)
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8?version=2
-
-#EXTINF:-1 ,СТС 
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8?version=3#parser
-#EXTINF:-1 ,СТС (+2)
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8?version=2
-
-#EXTINF:-1 ,Твоё ТВ HD
-http://tvoetv.space:8080/tvoetv/index.m3u8
-#EXTINF:-1 ,FX
-https://stream01.vnet.am/Fox/mono.m3u8
-#EXTINF:-1 ,Cinema
-http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
-#EXTINF:-1 ,Кинохит
-http://stream02.vnet.am/Kinokhit/tracks-v1a1/mono.m3u8
-#EXTINF:-1 ,Кинопремьера
-http://45.159.74.14:80/Kinopremera/index.m3u8
+http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8?version=2
 
 #EXTINF:-1 ,РБК
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
@@ -156,8 +135,6 @@ http://stream02.vnet.am/NationalGeographic/index.m3u8
 #EXTINF:-1 ,Охотник и Рыболов
 http://stream01.vnet.am/Channel_124/mono.m3u8
 
-#EXTINF:-1 ,Sochi Live
-http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 #EXTINF:-1 ,Живая природа
 https://livetv.mylifeisgood.net.ru/channels/jivyapriroda.m3u8
 
@@ -186,7 +163,3 @@ http://stream01.vnet.am/MuzTv/mono.m3u8
 http://iptv-hls.idc.md:8200/hls/77/live1.m3u8
 #EXTINF:-1 ,Матч!
 http://185.46.48.18:80/match/tracks-v1a1/mono.m3u8
-#EXTINF:-1 ,Матч! Арена
-http://31.210.208.171:8080/match_arena/index.m3u8?token=+W2MSER
-#EXTINF:-1 ,Матч! Страна
-http://flu.ttk.mx:90/Strana/mono.m3u8?token=hs06e
