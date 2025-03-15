@@ -16,7 +16,7 @@ http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8?ver
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=3#parser
 
-#EXTINF:-1 ,Известия ТВ
+#EXTINF:-1 tvg-id="izvestia" ,Известия ТВ
 http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 
 #EXTINF:-1 tvg-id="kino1int-tviksel" tvg-shift="0" ,Кино 1 Int
@@ -29,19 +29,21 @@ https://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8?version=3#parser
 
-#EXTINF:-1 ,Звезда (+2)
+#EXTINF:-1 ,ТВЦ 
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8?version=2
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8?version=3#parser
 #EXTINF:-1 ,РЕН ТВ (+2)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_2/variant.m3u8?version=2
-
-#EXTINF:-1 ,СТС (+2)
+#EXTINF:-1 ,Звезда (+2)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8?version=2
+http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8?version=2
 #EXTINF:-1 ,НТВ (+2)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8?version=2
+#EXTINF:-1 ,СТС (+2)
+#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
+http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8?version=2
 #EXTINF:-1 ,ТНТ (+2)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8?version=2
@@ -51,6 +53,15 @@ https://cdntv.online/hls/67md8b2uek/518.m3u8
 
 #EXTINF:-1 ,Красная линия
 https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 ,РБК
+http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
+
+#EXTINF:-1 ,Мир
+https://livetv.mylifeisgood.net.ru/channels/mirhdorig.m3u8
+
+#EXTINF:-1 ,RTД
+https://hls.rt.com/hls/rtdru.m3u8
 
 #EXTINF:-1 ,1FILMAX
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Sa
@@ -77,22 +88,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8?version=3#parser
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8?version=3#parser
 
-#EXTINF:-1 ,ТВЦ 
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8?version=3#parser
-
 #EXTINF:-1 ,Россия 1 (+4)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8?version=2
-
-#EXTINF:-1 ,РБК
-http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
-
-#EXTINF:-1 ,Мир
-https://livetv.mylifeisgood.net.ru/channels/mirhdorig.m3u8
-
-#EXTINF:-1 ,RTД
-https://hls.rt.com/hls/rtdru.m3u8
 
 #EXTINF:-1 ,Пятница! 
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
