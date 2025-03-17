@@ -43,7 +43,7 @@ http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8?version
 
 #EXTINF:-1 tvg-id="tv1000-russkoe-kino" ,Viju TV1000 Русское
 https://livetv.mylifeisgood.net.ru/channels/viju-tv1000russkoe.m3u8
-#EXTINF:-1 tvg-id="retro-tv" ,Ретро
+#EXTINF:-1 ,Ретро
 http://194.158.218.123:8880/Retrotv/index.m3u8
 
 #EXTINF:-1 ,Еда Премиум
