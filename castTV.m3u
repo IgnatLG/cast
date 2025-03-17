@@ -43,8 +43,9 @@ http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8?version
 
 #EXTINF:-1 tvg-id="tv1000-russkoe-kino" ,Viju TV1000 Русское
 https://livetv.mylifeisgood.net.ru/channels/viju-tv1000russkoe.m3u8
-#EXTINF:-1 ,Ретро
-http://194.158.218.123:8880/Retrotv/index.m3u8
+
+#EXTINF:-1 tvg-id="centralnoye-tv" ,Центральное ТВ
+http://stream01.vnet.am/Channel_129/mono.m3u8
 
 #EXTINF:-1 ,Еда Премиум
 https://cdntv.online/hls/67md8b2uek/518.m3u8
@@ -93,9 +94,6 @@ https://stream01.vnet.am/DomKino/mono.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" ,Дом кино Премиум
 http://stream02.vnet.am/THT/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 ,Мир
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-
 #EXTINF:-1 tvg-id="2na2" ,2x2
 https://livetv.mylifeisgood.net.ru/channels/2x2.m3u8
 #EXTINF:-1 ,Карусель 
@@ -128,12 +126,13 @@ http://178.212.71.253:8002/play/a00s/index.m3u8
 #EXTINF:-1 ,Ю 
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8?version=3#parser
+#EXTINF:-1 tvg-id="perec-int" ,Перец
+http://stream01.vnet.am/Perec/mono.m3u8
+#EXTINF:-1 ,Пятый канал
+http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
 
 #EXTINF:-1 ,Первый Космический
 http://stream01.vnet.am/Evrika/mono.m3u8
-
-#EXTINF:-1 ,Пятый канал
-http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
 
 #EXTINF:-1 ,ТВ-3
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
@@ -151,13 +150,13 @@ http://65.21.85.175:8000/play/a01m/index.m3u8?token=livetv
 #EXTINF:-1 ,Санкт-Петербург HD
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_SPBREGIONALHD/variant.m3u8?version=3#parser
-#EXTINF:-1 tvg-id="bolshaya-azia" ,Большая Азия
-https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,National Geographic 
 http://stream02.vnet.am/NationalGeographic/index.m3u8
 #EXTINF:-1 ,Охотник и Рыболов
 http://stream01.vnet.am/Channel_124/mono.m3u8
 
+#EXTINF:-1 tvg-id="bolshaya-azia" ,Большая Азия
+https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="sochi-live" ,Sochi Live
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="nasha-sibir" ,Наша Сибирь
