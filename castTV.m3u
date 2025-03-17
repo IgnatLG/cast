@@ -41,11 +41,10 @@ http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8?vers
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8?version=2
 
-#EXTINF:-1 tvg-id="pervy-info-by" ,Первый информационный
-https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w868240704_b5160000_sleng.m3u8
-#EXTINF:-1 ,Мир 24
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+#EXTINF:-1 tvg-id="tv1000-russkoe-kino" ,Viju TV1000 Русское
+https://livetv.mylifeisgood.net.ru/channels/viju-tv1000russkoe.m3u8
+#EXTINF:-1 tvg-id="retro-tv" ,Ретро
+http://194.158.218.123:8880/Retrotv/index.m3u8
 
 #EXTINF:-1 ,Еда Премиум
 https://cdntv.online/hls/67md8b2uek/518.m3u8
@@ -57,6 +56,9 @@ https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.69
 http://cdn.ntv.ru/unknown_russia/tracks-v3a1/mono.m3u8
 
+#EXTINF:-1 ,Мир 24
+#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 ,РБК
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1 tvg-id="vmeste-rf" ,Вместе РФ
@@ -86,8 +88,6 @@ http://stream02.vnet.am/Kinokhit/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="russky-illuzion" ,Русский иллюзион
 http://192.166.144.101:8000/play/a00b/index.m3u8
-#EXTINF:-1 tvg-id="tv1000-russkoe-kino" ,Viju TV1000 Русское
-https://livetv.mylifeisgood.net.ru/channels/viju-tv1000russkoe.m3u8
 #EXTINF:-1 tvg-id="domkino" ,Дом Кино
 https://stream01.vnet.am/DomKino/mono.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" ,Дом кино Премиум
