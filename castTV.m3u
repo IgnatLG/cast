@@ -41,8 +41,11 @@ http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8?vers
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8?version=2
 
-#EXTINF:-1 tvg-id="kinopremiera-hd" ,Кинопремьера HD
-http://91.205.199.3/kinopremerahd/index.m3u8
+#EXTINF:-1 tvg-id="tv1000-russkoe-kino" ,Viju TV1000 Русское
+https://jekalich.github.io/smtk/channels/tv1000-russkoe-kino.m3u8
+
+#EXTINF:-1 tvg-id="nashe-novoe-kino" ,Наше новое кино
+https://jekalich.github.io/smtk/channels/nashe-novoe-kino.m3u8
 
 #EXTINF:-1 tvg-id="centralnoye-tv" ,Центральное ТВ
 http://stream01.vnet.am/Channel_129/mono.m3u8
@@ -64,8 +67,6 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1 tvg-id="vmeste-rf" ,Вместе РФ
 http://cdn-01.bonus-tv.ru:80/vmesterf/tracks-v1a1/mono.m3u8
-#EXTINF:-1 ,ОТР 
-http://s18209.cdn.ngenix.net/hls/CH_R01_OTR/playlist.m3u8
 #EXTINF:-1 ,RTД
 https://hls.rt.com/hls/rtdru.m3u8
 
@@ -80,12 +81,14 @@ https://hls.goodgame.ru/hls/204717.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 https://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_TEOTV/variant.m3u8?WithCaption
 
+#EXTINF:-1 ,Кинохит
+http://stream02.vnet.am/Kinokhit/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="kinopremiera-hd" ,Кинопремьера
+https://jekalich.github.io/smtk/channels/kinopremiera-hd.m3u8
 #EXTINF:-1 tvg-id="tvoyo-tv-hd" ,Твоё ТВ
 http://tvoetv.space:8080/tvoetv/index.m3u8
 #EXTINF:-1 tvg-id="cinema-ru" ,Cinema
 http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
-#EXTINF:-1 ,Кинохит
-http://stream02.vnet.am/Kinokhit/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="russky-illuzion" ,Русский иллюзион
 http://192.166.144.101:8000/play/a00b/index.m3u8
@@ -103,11 +106,11 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8?version=3#parser
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8?version=3#parser
 
+#EXTINF:-1 tvg-id="kultura" ,Россия К
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
 #EXTINF:-1 ,Россия 1 (+4)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8?version=2
-#EXTINF:-1 tvg-id="kultura" ,Россия К
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
 
 #EXTINF:-1 ,СТС (+2)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
@@ -128,8 +131,6 @@ http://178.212.71.253:8002/play/a00s/index.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8?version=3#parser
 #EXTINF:-1 tvg-id="perec-int" ,Перец
 http://stream01.vnet.am/Perec/mono.m3u8
-#EXTINF:-1 ,Пятый канал
-http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
 
 #EXTINF:-1 ,Первый Космический
 http://stream01.vnet.am/Evrika/mono.m3u8
