@@ -41,8 +41,8 @@ http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8?vers
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8?version=2
 
-#EXTINF:-1 tvg-id="tv1000-russkoe-kino" ,Viju TV1000 Русское
-https://livetv.mylifeisgood.net.ru/channels/viju-tv1000russkoe.m3u8
+#EXTINF:-1 tvg-id="kinopremiera-hd" ,Кинопремьера HD
+http://91.205.199.3/kinopremerahd/index.m3u8
 
 #EXTINF:-1 tvg-id="centralnoye-tv" ,Центральное ТВ
 http://stream01.vnet.am/Channel_129/mono.m3u8
