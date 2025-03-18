@@ -15,8 +15,8 @@ http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8?ver
 #EXTINF:-1 tvg-id="rossia-24" ,Россия 24
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-sd/index.m3u8
 
-#EXTINF:-1 tvg-id="izvestia" ,Известия ТВ
-http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
+#EXTINF:-1 tvg-id="izvestia" ,Известия
+https://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 
 #EXTINF:-1 tvg-id="kino1int-tviksel" tvg-shift= ,Кино 1 Int
 http://kino-1.catcast.tv/content/38617/index.m3u8
@@ -47,9 +47,6 @@ https://jekalich.github.io/smtk/channels/tv1000-russkoe-kino.m3u8
 #EXTINF:-1 tvg-id="nashe-novoe-kino" ,Наше новое кино
 https://jekalich.github.io/smtk/channels/nashe-novoe-kino.m3u8
 
-#EXTINF:-1 tvg-id="centralnoye-tv" ,Центральное ТВ
-http://stream01.vnet.am/Channel_129/mono.m3u8
-
 #EXTINF:-1 ,Еда Премиум
 https://cdntv.online/hls/67md8b2uek/518.m3u8
 
@@ -69,6 +66,13 @@ http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 http://cdn-01.bonus-tv.ru:80/vmesterf/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,RTД
 https://hls.rt.com/hls/rtdru.m3u8
+#EXTINF:-1 tvg-id="centralnoye-tv" ,Центральное ТВ
+http://stream01.vnet.am/Channel_129/mono.m3u8
+#EXTINF:-1 ,Санкт-Петербург HD
+#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
+https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_SPBREGIONALHD/variant.m3u8?version=3#parser
+#EXTINF:-1 tvg-id="cctv-ru" ,CGTN Русский
+https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
 
 #EXTINF:-1 ,1FILMAX
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Sa
@@ -97,64 +101,61 @@ https://stream01.vnet.am/DomKino/mono.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" ,Дом кино Премиум
 http://stream02.vnet.am/THT/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="2na2" ,2x2
-https://livetv.mylifeisgood.net.ru/channels/2x2.m3u8
-#EXTINF:-1 ,Карусель 
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8?version=3#parser
-#EXTINF:-1 ,Солнце 
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8?version=3#parser
-
-#EXTINF:-1 tvg-id="kultura" ,Россия К
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
 #EXTINF:-1 ,Россия 1 (+4)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8?version=2
+#EXTINF:-1 tvg-id="kultura" ,Россия К
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
 
-#EXTINF:-1 ,СТС (+2)
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8?version=2
-#EXTINF:-1 ,ТНТ (+2)
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8?version=2
+# #EXTINF:-1 tvg-id="2na2" ,2x2
+# https://livetv.mylifeisgood.net.ru/channels/2x2.m3u8
+# #EXTINF:-1 ,Карусель 
+# #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8?version=3#parser
+# #EXTINF:-1 ,Солнце 
+# #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8?version=3#parser
 
-#EXTINF:-1 ,Пятница! 
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8?version=3#parser
-#EXTINF:-1 ,Суббота! 
-https://livetv.mylifeisgood.net.ru/channels/subbota.m3u8
-#EXTINF:-1 ,Че! 
-http://178.212.71.253:8002/play/a00s/index.m3u8
-#EXTINF:-1 ,Ю 
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8?version=3#parser
-#EXTINF:-1 tvg-id="perec-int" ,Перец
-http://stream01.vnet.am/Perec/mono.m3u8
+# #EXTINF:-1 ,СТС (+2)
+# #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
+# http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8?version=2
+# #EXTINF:-1 ,ТНТ (+2)
+# #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
+# http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8?version=2
 
-#EXTINF:-1 ,Первый Космический
-http://stream01.vnet.am/Evrika/mono.m3u8
+# #EXTINF:-1 ,Пятница! 
+# #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8?version=3#parser
+# #EXTINF:-1 ,Суббота! 
+# https://livetv.mylifeisgood.net.ru/channels/subbota.m3u8
+# #EXTINF:-1 ,Че! 
+# http://178.212.71.253:8002/play/a00s/index.m3u8
+# #EXTINF:-1 ,Ю 
+# #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8?version=3#parser
+# #EXTINF:-1 tvg-id="perec-int" ,Перец
+# http://stream01.vnet.am/Perec/mono.m3u8
 
-#EXTINF:-1 ,ТВ-3
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
+# #EXTINF:-1 ,Первый Космический
+# http://stream01.vnet.am/Evrika/mono.m3u8
 
-#EXTINF:-1 ,360° Новости
-https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
-#EXTINF:-1 ,360 HD
-http://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1080.m3u8
+# #EXTINF:-1 ,ТВ-3
+# #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+# https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
 
-#EXTINF:-1 ,Ратник HD
-http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
-#EXTINF:-1 ,Моя планета
-http://65.21.85.175:8000/play/a01m/index.m3u8?token=livetv
-#EXTINF:-1 ,Санкт-Петербург HD
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_SPBREGIONALHD/variant.m3u8?version=3#parser
-#EXTINF:-1 ,National Geographic 
-http://stream02.vnet.am/NationalGeographic/index.m3u8
-#EXTINF:-1 ,Охотник и Рыболов
-http://stream01.vnet.am/Channel_124/mono.m3u8
+# #EXTINF:-1 ,360° Новости
+# https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
+# #EXTINF:-1 ,360 HD
+# http://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1080.m3u8
+
+# #EXTINF:-1 ,Ратник HD
+# http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
+# #EXTINF:-1 ,Моя планета
+# http://65.21.85.175:8000/play/a01m/index.m3u8?token=livetv
+# #EXTINF:-1 ,National Geographic 
+# http://stream02.vnet.am/NationalGeographic/index.m3u8
+# #EXTINF:-1 ,Охотник и Рыболов
+# http://stream01.vnet.am/Channel_124/mono.m3u8
 
 #EXTINF:-1 tvg-id="bolshaya-azia" ,Большая Азия
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v1a1/mono.m3u8
@@ -165,14 +166,14 @@ https://livetv.mylifeisgood.net.ru/channels/nashasibirhd.m3u8
 #EXTINF:-1 ,Живая природа
 https://livetv.mylifeisgood.net.ru/channels/jivyapriroda.m3u8
 
-#EXTINF:-1 ,E TV
+#EXTINF:-1 tvg-id="e-tv" ,E TV
 http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 ,Baraza TV
 https://eco.streams.ovh:8081/barazatv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,Шансон ТВ
 https://hls-shansontv.cdnvideo.ru/shansontv/shansontv-sd.smil/playlist.m3u8
-#EXTINF:-1 ,Радио Шансон
+#EXTINF:-1 tvg-id="radio-shanson" ,Радио Шансон
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live_hiq/index.m3u8
 #EXTINF:-1 tvg-id="zhar-ptica" ,Жар-Птица
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
@@ -181,9 +182,25 @@ https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
 #EXTINF:-1 ,Муз-ТВ
 http://stream01.vnet.am/MuzTv/mono.m3u8
 
-#EXTINF:-1 ,Спорт
-http://iptv-hls.idc.md:8200/hls/77/live1.m3u8
+#EXTINF:-1 tvg-id="sportivny" ,ТВ Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+https://jekalich.github.io/smtk/channels/sportivny.m3u8
 #EXTINF:-1 tvg-id="start-triumf" ,Старт Триумф
 https://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd/33_85479982/1080p/4eaec8986e2012fb936478856fbf3b4b/4818731006.m3u8?live=15&ref=https://tvstart.ru/ru/pages/start-triumph/
+
+#EXTINF:-1 tvg-id="match-premier" ,Матч! Премьер
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+https://jekalich.github.io/smtk/channels/match-premier.m3u8
+#EXTINF:-1 tvg-id="match-igra" ,Матч! Игра
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+https://jekalich.github.io/smtk/channels/match-igra.m3u8
+#EXTINF:-1 tvg-id="match-nash-sport" ,Матч! Страна
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+https://jekalich.github.io/smtk/channels/match-nash-sport.m3u8
+#EXTINF:-1 tvg-id="match-planeta" ,Матч! Планета
+http://stream02.vnet.am/MatchPlaneta/playlist.m3u8
+#EXTINF:-1 tvg-id="match-arena" ,Матч! Арена
+http://tv.streams.baikal-telecom.net:8080/MatchArena/mpegts
+
 #EXTINF:-1 ,Матч!
 http://185.46.48.18:80/match/tracks-v1a1/mono.m3u8
