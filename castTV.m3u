@@ -1,5 +1,7 @@
 #EXTM3U url-tvg="http://iptvx.one/epg/epg_lite.xml.gz"
 
+# https://github.com/IgnatLG/cast/raw/refs/heads/main/castTV.m3u
+
 #EXTINF:-1 ,Первый канал
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_1TV/variant.m3u8?version=2
 #EXTINF:-1 ,Первый канал (+2)
@@ -12,8 +14,12 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8?version=2
 
-#EXTINF:-1 tvg-id="rossia-24" ,Россия 24
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-sd/index.m3u8
+# #EXTINF:-1 tvg-id="rossia-24" ,Россия 24
+# https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-sd/index.m3u8
+
+#EXTINF:-1 ,Россия 24 
+#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer 
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=3#parser
 
 #EXTINF:-1 tvg-id="izvestia" ,Известия
 https://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
