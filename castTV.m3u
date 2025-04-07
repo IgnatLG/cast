@@ -88,8 +88,7 @@ http://cdn.ntv.ru/unknown_russia/tracks-v3a1/mono.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 ,РБК
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
-#EXTINF:-1 tvg-id="vmeste-rf" ,Вместе РФ
-http://cdn-01.bonus-tv.ru:80/vmesterf/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 ,RTД
 https://hls.rt.com/hls/rtdru.m3u8
 #EXTINF:-1 ,360° Новости
@@ -143,13 +142,10 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8?version=3#parser
 http://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1080.m3u8
 
 # #EXTINF:-1 ,Ратник HD
-# http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
-# #EXTINF:-1 ,National Geographic 
-# http://stream02.vnet.am/NationalGeographic/index.m3u8
-# #EXTINF:-1 ,Моя планета
-# http://65.21.85.175:8000/play/a01m/index.m3u8?token=livetv
-# #EXTINF:-1 ,Охотник и Рыболов
-# http://stream01.vnet.am/Channel_124/mono.m3u8
+http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
+
+#EXTINF:-1 ,Моя планета
+http://65.21.85.175:8000/play/a01m/index.m3u8?token=livetv
 
 #EXTINF:-1 tvg-id="sochi-live" ,Sochi Live
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
@@ -174,23 +170,10 @@ http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live_hiq/index.m3u8
 #EXTINF:-1 tvg-id="zhar-ptica" ,Жар-Птица
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="sportivny" ,ТВ Спорт
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://jekalich.github.io/smtk/channels/sportivny.m3u8
 #EXTINF:-1 tvg-id="start-triumf" ,Старт Триумф
 https://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd/33_85479982/1080p/4eaec8986e2012fb936478856fbf3b4b/4818731006.m3u8?live=15&ref=https://tvstart.ru/ru/pages/start-triumph/
 
-#EXTINF:-1 tvg-id="match-premier" ,Матч! Премьер
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://jekalich.github.io/smtk/channels/match-premier.m3u8
-#EXTINF:-1 tvg-id="match-igra" ,Матч! Игра
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://jekalich.github.io/smtk/channels/match-igra.m3u8
-#EXTINF:-1 tvg-id="match-nash-sport" ,Матч! Страна
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://jekalich.github.io/smtk/channels/match-nash-sport.m3u8
 #EXTINF:-1 tvg-id="match-arena" ,Матч! Арена
 http://tv.streams.baikal-telecom.net:8080/MatchArena/mpegts
-
 #EXTINF:-1 ,Матч!
 http://185.46.48.18:80/match/tracks-v1a1/mono.m3u8
