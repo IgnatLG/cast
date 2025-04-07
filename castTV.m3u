@@ -142,7 +142,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8?version=3#parser
 http://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1080.m3u8
 
 # #EXTINF:-1 ,Ратник HD
-http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
+# http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
 
 #EXTINF:-1 ,Моя планета
 http://65.21.85.175:8000/play/a01m/index.m3u8?token=livetv
