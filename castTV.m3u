@@ -55,8 +55,8 @@ https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3
 
 #EXTINF:-1 tvg-id="tv1000-russkoe-kino" ,Viju TV1000 Русское
 https://jekalich.github.io/smtk/channels/tv1000-russkoe-kino.m3u8
-#EXTINF:-1 tvg-id="nashe-novoe-kino" ,Наше новое кино
-https://jekalich.github.io/smtk/channels/nashe-novoe-kino.m3u8
+#EXTINF:-1 tvg-id="retro-tv" ,Ретро
+http://194.158.218.123:8880/Retrotv/index.m3u8
 
 #EXTINF:-1 ,1FILMAX
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Sa
@@ -67,8 +67,9 @@ https://hls.goodgame.ru/hls/204717.m3u8
 
 #EXTINF:-1 tvg-id="kinopremiera-hd" ,Кинопремьера
 https://jekalich.github.io/smtk/channels/kinopremiera-hd.m3u8
-#EXTINF:-1 tvg-id="tvoyo-tv-hd" ,Твоё ТВ
-http://tvoetv.space:8080/tvoetv/index.m3u8
+#EXTINF:-1 tvg-id="kino-24" ,Kino 24
+https://sirius.greenhosting.ru/Kino24Ru/video.m3u8
+
 #EXTINF:-1 tvg-id="cinema-ru" ,Cinema
 http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
 
@@ -89,7 +90,7 @@ http://cdn.ntv.ru/unknown_russia/tracks-v3a1/mono.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 
 #EXTINF:-1 ,RTД
-https://hls.rt.com/hls/rtdru.m3u8
+http://cdn-01.bonus-tv.ru:80/rtdoc/index.m3u8
 #EXTINF:-1 ,360° Новости
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
 #EXTINF:-1 ,Санкт-Петербург HD
@@ -166,8 +167,7 @@ http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="start-triumf" ,Старт Триумф
 https://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd/33_85479982/1080p/4eaec8986e2012fb936478856fbf3b4b/4818731006.m3u8?live=15&ref=https://tvstart.ru/ru/pages/start-triumph/
-
-#EXTINF:-1 tvg-id="match-arena" ,Матч! Арена
-http://tv.streams.baikal-telecom.net:8080/MatchArena/mpegts
+#EXTINF:-1 tvg-id="belarus5" ,Беларусь Спорт
+https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
 #EXTINF:-1 ,Матч!
 http://185.46.48.18:80/match/tracks-v1a1/mono.m3u8
