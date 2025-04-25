@@ -67,8 +67,6 @@ https://hls.goodgame.ru/hls/204717.m3u8
 
 #EXTINF:-1 tvg-id="kinopremiera-hd" ,Кинопремьера
 https://jekalich.github.io/smtk/channels/kinopremiera-hd.m3u8
-#EXTINF:-1 tvg-id="kino-24" ,Kino 24
-https://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 
 #EXTINF:-1 tvg-id="cinema-ru" ,Cinema
 http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
@@ -121,9 +119,9 @@ http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8?ver
 #EXTINF:-1 tvg-id="2na2" ,2x2
 https://livetv.mylifeisgood.net.ru/channels/2x2.m3u8
 
-# #EXTINF:-1 ,Карусель 
-# #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-# http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8?version=3#parser
+#EXTINF:-1 ,Карусель 
+#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8?version=3#parser
 
 #EXTINF:-1 ,Пятница! 
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
