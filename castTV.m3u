@@ -24,7 +24,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=3#parse
 #EXTINF:-1 tvg-id="izvestia" ,Известия
 https://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 
-#EXTINF:-1 ,Музыка Кино
+#EXTINF:-1 tvg-shift= ,Музыка Кино
 https://kino-1.catcast.tv/content/37739/index.m3u8
 
 #EXTINF:-1 tvg-id="ort-planeta-orenburg" ,ОРТ (Оренбург)
