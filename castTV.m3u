@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="http://iptvx.one/epg/epg_lite.xml.gz"
 
-# https://github.com/IgnatLG/cast/raw/refs/heads/main/castTV.m3u
+# http://github.com/IgnatLG/cast/raw/refs/heads/main/castTV.m3u
 
 #EXTINF:-1 ,Первый канал
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_1TV/variant.m3u8?version=2
@@ -169,7 +169,7 @@ http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="radio-strana-fm-tv" ,Страна FM HD
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="shanson-tv" ,Шансон ТВ
-http://hls-shansontv.cdnvideo.ru/shansontv/smil:shansontv.smil/playlist.m3u8
+http://uiptv.do.am/1ufc/602079679/playlist.m3u8
 #EXTINF:-1 tvg-id="radio-shanson" ,Радио Шансон
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live_hiq/index.m3u8
 #EXTINF:-1 tvg-id="zhar-ptica" ,Жар-Птица
