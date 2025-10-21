@@ -22,10 +22,17 @@ http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8?ver
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=3#parser
 
 #EXTINF:-1 tvg-id="izvestia" ,Известия
-http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
+http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 
-#EXTINF:-1 tvg-shift= ,Музыка Кино
-http://kino-1.catcast.tv/content/37739/index.m3u8
+#EXTINF:-1 ,41 Регион (Камчатка)
+#EXTVLCOPT:http-user-agent=WINK/RT_(Android_TV/11)_WinkPlayer_AppleWebKit/537.36
+https://s14131.cdn.ngenix.net/hls/CH_R02_OTT_DV_KAM_41REG_OTT/variant.m3u8
+
+# #EXTINF:-1 tvg-id="kino1int-tviksel" tvg-shift= ,Кино 1 Int
+# http://kino-1.catcast.tv/content/38617/index.m3u8
+
+# #EXTINF:-1 tvg-shift= ,Музыка Кино
+# https://kino-1.catcast.tv/content/37739/index.m3u8
 
 #EXTINF:-1 tvg-id="ort-planeta-orenburg" ,ОРТ (Оренбург)
 http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8
@@ -51,8 +58,8 @@ http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8?version
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0
 http://cdn2.ntv.ru/th_hit/playlist.m3u8
 
-#EXTINF:-1 tvg-id="kino1int-tviksel" tvg-shift= ,Кино 1 Int
-http://kino-1.catcast.tv/content/38617/index.m3u8
+#EXTINF:-1 ,Смотрим
+http://dmitry-tv.ddns.net/hls/smotrim/CH_KINO_I_SERIALY.m3u8
 
 #EXTINF:-1 ,Красная линия
 http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
@@ -72,9 +79,6 @@ http://jekalich.github.io/smtk/channels/kinopremiera-hd.m3u8
 #EXTINF:-1 tvg-id="cinema-ru" ,Cinema
 http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 ,VHS TV
-http://v2.catcast.tv/content/47609/index.m3u8
-
 #EXTINF:-1 ,Солнце 
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8?version=3#parser
@@ -93,6 +97,9 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 
 #EXTINF:-1 ,Север
 http://live.mediacdn.ru/sr1/sever/playlist.m3u8
+
+#EXTINF:-1 tvg-id="vremia-arktiki" ,Арктика 24 HD
+http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ARKTIKA24_URAL_YNF/variant.m3u8
 
 #EXTINF:-1 tvg-id="krasnodar" ,Краснодар HD
 http://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
@@ -177,7 +184,7 @@ http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="start-triumf" ,Старт Триумф
 http://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd/33_85479982/1080p/4eaec8986e2012fb936478856fbf3b4b/4818731006.m3u8?live=15&ref=https://tvstart.ru/ru/pages/start-triumph/
-#EXTINF:-1 tvg-id="belarus5" ,Беларусь Спорт
-http://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
+#EXTINF:-1 tvg-id="belarus5" ,Беларусь 5
+https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
 #EXTINF:-1 ,Матч!
 http://185.46.48.18:80/match/tracks-v1a1/mono.m3u8
