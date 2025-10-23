@@ -25,7 +25,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=3#parse
 http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 
 #EXTINF:-1 ,41 Регион (Камчатка)
-#EXTVLCOPT:http-user-agent=WINK/RT_(Android_TV/11)_WinkPlayer_AppleWebKit/537.36
+#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 https://s14131.cdn.ngenix.net/hls/CH_R02_OTT_DV_KAM_41REG_OTT/variant.m3u8
 
 # #EXTINF:-1 tvg-id="kino1int-tviksel" tvg-shift= ,Кино 1 Int
