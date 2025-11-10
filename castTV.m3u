@@ -24,9 +24,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=3#parse
 #EXTINF:-1 tvg-id="izvestia" ,Известия
 http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 
-#EXTINF:-1 ,41 Регион (Камчатка)
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-https://s14131.cdn.ngenix.net/hls/CH_R02_OTT_DV_KAM_41REG_OTT/variant.m3u8
+#EXTINF:-1 tvg-id="rus-hualiang-tv" ,Китай ТВ HD
+https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
 
 # #EXTINF:-1 tvg-id="kino1int-tviksel" tvg-shift= ,Кино 1 Int
 # http://kino-1.catcast.tv/content/38617/index.m3u8
@@ -61,17 +60,11 @@ http://cdn2.ntv.ru/th_hit/playlist.m3u8
 #EXTINF:-1 ,Смотрим
 http://dmitry-tv.ddns.net/hls/smotrim/CH_KINO_I_SERIALY.m3u8
 
-#EXTINF:-1 ,Красная линия
-http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-id="kino-24" ,Kino 24
-http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
-
 #EXTINF:-1 tvg-id="kino-tv" ,Кино ТВ
 http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="shokiruyushchee" ,Шокирующее HD
-http://141.95.55.143/CH229/index.m3u8
+#EXTINF:-1 ,Красная линия
+http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="kinopremiera-hd" ,Кинопремьера
 http://jekalich.github.io/smtk/channels/kinopremiera-hd.m3u8
@@ -79,9 +72,16 @@ http://jekalich.github.io/smtk/channels/kinopremiera-hd.m3u8
 #EXTINF:-1 tvg-id="cinema-ru" ,Cinema
 http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-id="ani" ,Ani
+http://stv.mediacdn.ru/live/cdn/ani/tracks-v1a1/mono.ts.m3u8
+
 #EXTINF:-1 ,Солнце 
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8?version=3#parser
+
+#EXTINF:-1 ,Карусель 
+#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8?version=3#parser
 
 #EXTINF:-1 ,Тео ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
@@ -101,13 +101,19 @@ http://live.mediacdn.ru/sr1/sever/playlist.m3u8
 #EXTINF:-1 tvg-id="vremia-arktiki" ,Арктика 24 HD
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ARKTIKA24_URAL_YNF/variant.m3u8
 
+#EXTINF:-1 ,41 Регион (Камчатка)
+#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
+https://s14131.cdn.ngenix.net/hls/CH_R02_OTT_DV_KAM_41REG_OTT/variant.m3u8
+
 #EXTINF:-1 tvg-id="krasnodar" ,Краснодар HD
 http://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
 
 #EXTINF:-1 ,РБК
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
-#EXTINF:-1 ,RTД
-http://cdn-01.bonus-tv.ru:80/rtdoc/index.m3u8
+
+#EXTINF:-1 tvg-id="rtd-ru" ,RTД HD
+http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
+
 #EXTINF:-1 ,360° Новости
 http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
 #EXTINF:-1 ,Санкт-Петербург HD
@@ -134,10 +140,6 @@ http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_4/variant.m3u8?versi
 #EXTINF:-1 ,Россия 1 (+4)
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8?version=2
-
-#EXTINF:-1 ,Карусель 
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8?version=3#parser
 
 #EXTINF:-1 ,Пятница! 
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
