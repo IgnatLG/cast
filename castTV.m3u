@@ -43,8 +43,8 @@ http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8?ver
 #EXTINF:-1 tvg-id="12-omsk" ,12 канал
 https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8
 
-#EXTINF:-1 tvg-id="legendarny24" ,Легендарный 24
-https://sevas.1tvcrimea.ru/legendarniy24.m3u8
+#EXTINF:-1 tvg-id="chestny-detektiv" ,Смотрим Честный детектив
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
 
 #EXTINF:-1 ,CTV
 https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
