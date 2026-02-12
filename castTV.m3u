@@ -191,6 +191,7 @@ http://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd/
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
 
 #EXTINF:-1 tvg-id="okko-sport",Окко Спорт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.69
 http://ua.online24.pm/play/7337/350B326FB34F4B8/video.m3u8
 
 #EXTINF:-1 tvg-id="match-tv" ,Матч!
