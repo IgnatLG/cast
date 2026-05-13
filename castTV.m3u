@@ -29,8 +29,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
 #EXTINF:-1 tvg-id="izvestia" ,Известия
 http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 
-#EXTINF:-1 tvg-id="tv1000-russkoe-kino" ,Viju TV1000 Русское
-http://jekalich.github.io/smtk/channels/tv1000-russkoe-kino.m3u8
+#EXTINF:-1 tvg-id="pro-lyubov" ,Про Любовь
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.0.0 Safari/537.36
+https://jekalich.github.io/smtk/channels/pro-lyubov.m3u8
 
 #EXTINF:-1 tvg-id="ort-planeta-orenburg" ,ОРТ (Оренбург)
 http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8
@@ -57,9 +58,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8
 #EXTINF:-1 ,НТВ (+2)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8
 
-#EXTINF:-1 tvg-id="pro-lyubov" ,Про Любовь
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.0.0 Safari/537.36
-https://jekalich.github.io/smtk/channels/pro-lyubov.m3u8
+#EXTINF:-1 tvg-id="foxlife" ,FX Life HD
+https://a3569457567-s70378.cdn.ngenix.net/fox_life/1/index.m3u8
 
 #EXTINF:-1 ,Смотрим
 http://dmitry-tv.ddns.net/hls/smotrim/CH_KINO_I_SERIALY.m3u8
