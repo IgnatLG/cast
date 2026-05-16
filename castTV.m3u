@@ -29,9 +29,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
 #EXTINF:-1 tvg-id="izvestia" ,Известия
 http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 
-#EXTINF:-1 tvg-id="pro-lyubov" ,Про Любовь
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.0.0 Safari/537.36
-https://jekalich.github.io/smtk/channels/pro-lyubov.m3u8
+#EXTINF:-1 ,Смотрим (Кино и сериалы)
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="ort-planeta-orenburg" ,ОРТ (Оренбург)
 http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8
@@ -39,15 +38,8 @@ http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8
 #EXTINF:-1 tvg-id="domashny" ,Домашний
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
 
-#EXTINF:-1 tvg-id="eda" ,Еда
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.0.0 Safari/537.36
-https://jekalich.github.io/smtk/channels/eda.m3u8
-
 #EXTINF:-1 tvg-id="12-omsk" ,12 канал
 https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8
-
-#EXTINF:-1 tvg-id="chestny-detektiv" ,Смотрим Честный детектив
-https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="tvcentr" tvg-shift=-2 ,ТВЦ (+2)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_2/variant.m3u8
@@ -58,11 +50,15 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8
 #EXTINF:-1 ,НТВ (+2)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8
 
-#EXTINF:-1 tvg-id="foxlife" ,FX Life HD
-https://a3569457567-s70378.cdn.ngenix.net/fox_life/1/index.m3u8
+#EXTINF:-1 tvg-id="sovkino" ,Советское кино
+http://stitch.teletarget.ru/vintera/sovietmovie/index.m3u8
 
-#EXTINF:-1 ,Смотрим
-http://dmitry-tv.ddns.net/hls/smotrim/CH_KINO_I_SERIALY.m3u8
+#EXTINF:-1 tvg-id="vip-serial" ,Viju+ serial
+https://a3569457567-s70378.cdn.ngenix.net/vip_serial/2/index.m3u8
+
+#EXTINF:-1 tvg-id="sts" ,СТС
+#EXTVLCOPT:http-user-agent="WINK/1.80.1 (AndroidTV/9) HlsWinkPlayer"
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 
 #EXTINF:-1 tvg-id="amedia1" ,Amedia 1
 http://a3569457567-s70378.cdn.ngenix.net/amedia_1/2/index.m3u8
@@ -79,8 +75,11 @@ https://a3569457567-s70378.cdn.ngenix.net/amedia_hit/2/index.m3u8
 #EXTINF:-1 tvg-id="amedia-premium" ,Amedia Premium
 https://a3569457567-s70378.cdn.ngenix.net/amedia_premium_hd/3/index.m3u8
 
-#EXTINF:-1 tvg-id="vip-serial" ,Viju+ Serial
-http://api.peers.tv/timeshift/viasat_golf_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3Nzg2OTg3MzYsImlhdCI6MTc3ODYxMjMzNiwiY2lkIjo2LCJ1aWQiOjEwNDMzMDU5NTEsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.uwpEfTHxVtv0Tf4S6xMt7cxgvroZHH7IJN519crqg0Y&offset=10
+#EXTINF:-1 tvg-id="zhivaya-planeta" ,Живая Планета
+https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="voprosy-i-otvety" ,Вопросы и ответы
+https://stream8.cinerama.uz/1429/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 ,Солнце 
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
@@ -88,20 +87,18 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
 #EXTINF:-1 ,Карусель 
 http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
 
-#EXTINF:-1 ,Тео ТВ
-#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
-http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_TEOTV/variant.m3u8?WithCaption
+#EXTINF:-1 tvg-id="kaleydoskop-tv" ,Калейдоскоп ТВ
+http://serv25.vintera.tv:8081/kaleidoscop/kaleidoscop_sd/playlist.m3u8
 
-#EXTINF:-1 ,TV Pro
-http://rtmp.tvpro-online.ru/hls/ch1.m3u8
+#EXTINF:-1 ,RADIOKIDS.FM
+http://cqw2lystveu.a.trbcdn.net/livemaster/7ak8t_live-hv25n82a0l8.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="kinopokaz-hd" ,Кинопоказ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.0.0 Safari/537.36
-https://jekalich.github.io/smtk/channels/kinopokaz-hd.m3u8
+#EXTINF:-1 tvg-id="2na2" ,2x2
+#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
 
-#EXTINF:-1 tvg-id="nash-kinopokaz-hd" ,Наш Кинопоказ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.0.0 Safari/537.36
-https://jekalich.github.io/smtk/channels/nash-kinopokaz-hd.m3u8
+#EXTINF:-1 tvg-id="rutube-tv" ,RUTUBE TV
+https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=U_og5iHG6xVp0V3KXYMB0g&e=2070623479&scheme=https
 
 #EXTINF:-1 ,Мир 24
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
@@ -168,9 +165,8 @@ http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 
-#EXTINF:-1 tvg-id="bridge-tv-fresh" ,Bridge TV Fresh
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.0.0 Safari/537.36
-https://jekalich.github.io/smtk/channels/bridge-tv-fresh.m3u8
+#EXTINF:-1 ,DanceHits80
+http://dancehits80.denvs.ru:8080/index.m3u8
 
 #EXTINF:-1 tvg-id="tnt-music" ,ТНТ Music
 http://cdn-01.bonus-tv.ru/tntmusic/index.m3u8
